@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <title>MK | Contact</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header-logo">
+                    <a href="/index.html">MK</a>
+                </div>
+                <nav class="header-nav">
+                    <a href="/index.html"><span>H</span>ome</a>
+                    <a href="/pages/about.html"><span>A</span>bout</a>
+                    <a href="/pages/contact.html"><span>C</span>ontact</a>
+                </nav>
+                <button
+                    class="header-nav-button"
+                    id="headerNavButton"
+                    type="button"
+                >
+                    <img
+                        src="/assets/svg/menu.svg"
+                        alt="menu"
+                        id="headerNavIcon"
+                    />
+                </button>
+            </header>
+            <nav class="header-nav-mobile" id="headerNavMobile">
+                <a href="/index.html">Home</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/contact.html">Contact</a>
+            </nav>
+            <main class="main">
+                <section class="contact-section">
+                    <form action="" class="form">
+                        <div class="form-left">
+                            <span>Contact</span>
+                            <h2>Get in Touch</h2>
+                            <p>
+                                If you have any questions, collaboration
+                                inquiries, or just want to say hello, please
+                                don't hesitate to reach out. I value every
+                                opportunity to connect with fellow professionals
+                                and potential partners.
+                            </p>
+                            <div class="form-left-email">
+                                <img src="/assets/svg/email.svg" alt="email" />
+                                <a href="mailto:sandoval.markkevin.j@gmail.com"
+                                    >sandoval.markkevin.j@gmail.com</a
+                                >
+                            </div>
+                            <div class="form-left-contact">
+                                <img src="/assets/svg/phone.svg" alt="phone" />
+                                <span>+639467340637</span>
+                            </div>
+                            <div class="form-left-location">
+                                <img
+                                    src="/assets/svg/location.svg"
+                                    alt="location"
+                                />
+                                <span
+                                    >Lucao Dagupan City Pangasinan,
+                                    Philippines</span
+                                >
+                            </div>
+                        </div>
+                        <div class="form-right">
+                            <div class="form-name">
+                                <label for="name">Name</label>
+                                <input type="text" name="text" id="text" />
+                            </div>
+                            <div class="form-email">
+                                <label for="email">Email</label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    required
+                                />
+                            </div>
+                            <div class="form-message">
+                                <label for="message">Message</label>
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    placeholder="Type your message..."
+                                ></textarea>
+                            </div>
+                            <button class="button-submit" type="submit">
+                                <span>Submit</span>
+                                <div class="button-submit-overlay"></div>
+                            </button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
